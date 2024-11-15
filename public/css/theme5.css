@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(to right, #55acf8, #00f2ff);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.btn-color {
+    position: relative;
+    background-color: rgb(75, 83, 171);
+    color: #fff;
+    border-radius: 0.37rem;
+    padding-right: 1.5rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.btn-color :hover {
+    color: #fff !important;
+    background-color: rgb(31, 36, 80) !important;
+}
+
+.profile-img {
+    width:150px;
+    height:150px;
+    object-fit: contain;
+    object-position: initial;
+    filter: none;
+}
+
+.thumbnail-image{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.preview-name{
+    color: rgb(36, 34, 109) !important;
+}
+
+.preview-bio{
+    color: rgb(37, 39, 112) !important;
+}
+
+.btn-modal {
+    position: relative;
+    background-color: #e9dcdc;
+    color: #fff;
+    border-radius: 0.37rem;
+    padding-right: 1.5rem;
+}
+
+.btn-modal :hover {
+    color: #fff !important;
+    background-color: #c0c0c0 !important;
+}
+
+.btn-options {
+    display: none;
+    /* Hide the button by default */
+}
+
+.btn-modal :hover {
+    color: #fff !important;
+    background-color: #c0c0c0 !important;
+}
+
+.light-icon{
+    color: #cad2d9;
+}
+
+.btn-response{
+    width: 70%;
+    margin-bottom: 1.1rem !important;
+}
+
+.a-response{
+    font-size: 20px;
+    color: #d1dedd;
+    padding: 11px 30px 11px 35px ;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .btn-response {
+       width: 90% !important;
+    }
+    .a-response{
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .btn-response {
+       width: 70% !important;
+    }
+    .a-response{
+        font-size: 16px !important;
+    }
+}
